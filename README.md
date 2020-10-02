@@ -3,6 +3,8 @@ CRT Parafoil Design Software
 
 Credit for CD and CL calculations as well as design parameters, Steven Lingard, Basic Analysis of Ram Air Parachute
 ---Basic intro to Parafoil Designer---
+!! Must have pandas installed !!
+
 This software must be used in tandem with xfoil.
 
 Use xfoil to generate a list of alphas vs CL and CD, save these to a file.
@@ -21,8 +23,10 @@ These json format files should eventually work with ParaSim, but they currently 
 
 
 ---coeffCalc.py---
+!! Must have matplotlib installed !!
 This is an old standalone script for calculating CL and CD, it is up to date in calculations and is compatible with Parafoil Designer json files.
 Currently used only for generating pie charts of the CD components.
 
 ---parafoilPlot.py---
+!! Must have matplotlib and pandas installed !!
 This is an old standalone script for plotting various things from xfoil csv files. Only used for demo purposes and visualization.

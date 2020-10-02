@@ -1,3 +1,4 @@
+# !!! Standalone coefficient calculator for creating pi chart of cd for demo purposes !!!
 import math
 import matplotlib.pyplot as plt
 import json

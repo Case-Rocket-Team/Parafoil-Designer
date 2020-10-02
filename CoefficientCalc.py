@@ -1,4 +1,3 @@
-# !!! Standalone coefficient calculator for creating pi chart of cd for demo purposes !!!
 import math
 class CoefficientCalc:
     def clCalc(self, parafoil):
