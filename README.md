@@ -17,3 +17,11 @@ Make sure to have a parafoil with an aspect ratio of 2. Any other aspect ratio w
 according to Steven Lingard's Basic Analysis of Ram Air Parachute.
 
 These json format files should eventually work with ParaSim, but they currently do not, just copy the data over in the code.
+
+
+---coeffCalc.py---
+This is an old standalone script for calculating CL and CD, it is up to date in calculations and is compatible with Parafoil Designer json files.
+Currently used only for generating pie charts of the CD components.
+
+---parafoilPlot.py---
+This is an old standalone script for plotting various things from xfoil csv files. Only used for demo purposes and visualization.
