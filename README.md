@@ -6,6 +6,7 @@ Credit for CD and CL calculations as well as design parameters, Steven Lingard, 
 This software must be used in tandem with xfoil.
 
 Use xfoil to generate a list of alphas vs CL and CD, save these to a file.
+naca4418.csv is a good demo of this file. Use it if you do not want a custom airfoil and just want to use a naca4418 profile.
 
 Make sure this list covers from CL = 0 to max L/D.
 
