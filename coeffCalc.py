@@ -58,7 +58,7 @@ def cdCalc(parafoil, cl_alpha):
     surf_percent = calcPercentage(surf_drag, tot_cd)
     store_percent = calcPercentage(store_drag, tot_cd)
     # Pie chart, where the slices will be ordered and plotted counter-clockwise:
-    labels = 'Profile Drag', 'Inlet Drag', 'Line Drag', 'Store Drag (From Payload)', 'Induced Drag', 'Roughness Drag'
+    labels = 'Profile Drag', 'Inlet Drag', 'Line Drag', 'Store Drag', 'Induced Drag', 'Roughness Drag'
     sizes = [prof_percent, inlet_percent, line_percent, store_percent, induced_percent, surf_percent]
     explode = (0.1, 0, 0, 0.1, 0, 0)
     fig1, ax1 = plt.subplots()
